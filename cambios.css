@@ -1,0 +1,41 @@
+
+h1{
+    align-items: center;
+    align-content: center;
+   
+    margin-left: 500px;
+}
+.creador{
+    margin-left: 540px;
+}
+a{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+   color: crimson;
+
+}
+a:hover{
+border-bottom: 2px solid crimson;
+}
+img{
+    width: 300px;
+    margin-left: 300px;
+}
+nav{
+    margin-left: 300px;
+}
+@media (max-width:700px){
+    header{
+     float: right;
+     text-align: center;
+   padding-left: 50px;
+    margin-right: 260px;
+  
+    }
+    nav{
+        text-align: center;
+        margin-right: 100px;
+        margin-left: 150px;
+    }
+}
